@@ -1,0 +1,53 @@
+/*our job*/
+.section--our-job {
+  padding-top: 0;
+}
+.our-job--container {
+  display: flex;
+  flex-direction: column;
+}
+.our-job__title,
+.our-team__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.our-job {
+  display: flex;
+}
+
+.our-job__item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.our-job__item:last-child {
+  margin-right: 0;
+}
+.item__box {
+  position: relative;
+}
+.item__lable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.lable__description {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-wite-color);
+}
