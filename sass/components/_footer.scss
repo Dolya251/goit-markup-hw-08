@@ -30,6 +30,11 @@
     width: auto;
   }
 }
+.footer-contacts {
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
 
 footer {
   background-color: var(--primary-bg-color);
@@ -129,6 +134,8 @@ footer {
   @extend%btn;
   @extend%flex-center;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .subscribe__icon {
   width: 24px;

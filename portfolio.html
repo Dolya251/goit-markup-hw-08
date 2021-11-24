@@ -23,8 +23,8 @@
             <a href="#" class="logo logo__header">Web<span class="studio">Studio</span></a>
             <nav class="top-nav">
                 <ul class="navigation">
-                    <li class="navigation__item"><a href="./index.html" class=" navigation__link">Студия</a></li>
-                    <li class="navigation__item"><a href="portfolio.html" class="navigation__link--current">Портфолио</a></li>
+                    <li class="navigation__item"><a href="./index.html" class=" navigation__link--current">Студия</a></li>
+                    <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Портфолио</a></li>
                     <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
                 </ul>
             </nav>
@@ -40,6 +40,53 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
+            <button data-menu-open class="mobile-button" type="button">
+                <svg class="mobile-button__icon" width="24" height="16">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+            <!-- mobile-menu -->
+            <div class="mobile" data-menu>
+                <ul class="mobile-menu">
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="">Студия</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="mobile-contact">
+                    <li class="mobile-contact__item">
+                        <a class="mobile-contact__link " href="tel:+380961111111">+38 096 111
+                            11 11</a>
+                    </li>
+                    <li class="mobile-contact__item">
+                        <a class="mobile-contact__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mobile-social">
+                    <li class="mobile-social__item">
+                        <a class="mobile-social__link" href="">Instagram</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a class="mobile-social__link" href="">Twitter</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a class="mobile-social__link" href="">Facebook</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a class="mobile-social__link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+                <button class="mobile-button-close" type="button" data-menu-close>
+                    <svg class="mobile-button-close__icon" width="19" height="19">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
     <main>
@@ -233,10 +280,10 @@
     </main>
     <!--footer-->
     <footer>
-        <div class="container footer-content ">
+        <div class="container footer__container ">
     
-            <div class="content__item">
-                <a href="#" class="logo link">Web<span class="footer-studio">Studio</span></a>
+            <div class="footer__info">
+                <a href="#" class="logo footer__logo">Web<span class="footer-studio">Studio</span></a>
                 <address>
                     <ul class="footer-contacts">
                         <li class="footer__item"><a href="https://goo.gl/maps/Uysv4rsXzybUecRq7" target=“_blank”
@@ -291,7 +338,7 @@
     
             <!--subscribe-->
             <div class="subscribe">
-                <strong class="subscribe__title">Подпишитесь на рассылку</strong>
+                <p class="subscribe__title">Подпишитесь на рассылку</p>
                 <form class="subscribe___form">
                     <input type="email" name="email" id="user-email" placeholder="E-mail" class="subscribe__input">
     
