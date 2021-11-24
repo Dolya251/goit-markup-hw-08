@@ -9,11 +9,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.backdrop:not(.is-hidden) {
   transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -23,8 +22,7 @@
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  padding: 40px;
   position: relative;
   max-height: 100%;
   max-width: 100%;
@@ -67,11 +65,9 @@
 }
 
 .form {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
 }
 
 .form__inputs {
@@ -128,7 +124,6 @@
   outline: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
   &:focus {
     border-color: var(--accent-color);
   }
@@ -231,9 +226,7 @@
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0, 0, 0);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 32px;
-  position: relative;
-  margin: 0;
   transition: background-color 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -43,10 +43,28 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    margin: 0 auto;
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 .section {
   padding: 94px 0;
@@ -60,6 +78,24 @@ ul {
   white-space: nowrap;
   width: 1px;
 }
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 %flex-center {
   display: flex;
   align-items: center;

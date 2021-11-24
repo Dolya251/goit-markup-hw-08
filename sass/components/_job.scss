@@ -1,21 +1,12 @@
 /*our job*/
-.section--our-job {
+.section--no-padding-top {
   padding-top: 0;
 }
-.our-job--container {
-  display: flex;
-  flex-direction: column;
+.section--display-none {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
-.our-job__title,
-.our-team__header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
 .our-job {
   display: flex;
 }
@@ -23,15 +14,14 @@
 .our-job__item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-
-.our-job__item:last-child {
-  margin-right: 0;
-}
-.item__box {
+.our-job__box {
   position: relative;
 }
-.item__lable {
+.our-job__lable {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +32,7 @@
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-.lable__description {
+.our-job__description {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

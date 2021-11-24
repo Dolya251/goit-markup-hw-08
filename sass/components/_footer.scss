@@ -1,7 +1,17 @@
 /*footer*/
 .footer-content {
-  display: flex;
-  align-items: baseline;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
 }
 .content__item {
   margin-right: 70px;
