@@ -172,6 +172,18 @@ button {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo__header {
+    margin-right: 93px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo__header {
+    margin-right: 88px;
+  }
+}
+
 .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;

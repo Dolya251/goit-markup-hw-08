@@ -17,6 +17,14 @@
     padding: 24px 0;
   }
 }
+.logo__header {
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+}
 
 .top-nav {
   display: flex;
