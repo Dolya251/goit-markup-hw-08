@@ -1463,7 +1463,7 @@ footer {
   opacity: 1;
 }
 
-.projects__tumb {
+.projects__thumb {
   padding: 20px 24px;
   border: 1px solid var(--border-accent-color);
   border-top: none;
