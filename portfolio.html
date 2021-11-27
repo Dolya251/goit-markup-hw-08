@@ -90,7 +90,7 @@
         </div>
     </header>
     <main>
-        <section class="section">
+        <section class="section section-padding-top ">
             <div class="container">
                 <h2 class="visually-hidden">фільтри</h2>
                 <!-- filters-->
@@ -107,26 +107,30 @@
                         <a href="" class="projects__link">
                             <div class="projects__box">
                                 <picture>
-                                    <source media="(min-width: 1200px)"srcset="
+                                    <source media="(min-width: 1200px)" srcset="
                                                 ./images/projects/works-1-desktop.jpg 1x,
-                                                ./images/projects/works-1-desktop@2x.jpg 2x"srcset="
+                                                ./images/projects/works-1-desktop@2x.jpg 2x"/>
+                                     <source media="(min-width: 1200px)" srcset="
                                                 ./images/projects/works-1-desktop.webp 1x,
                                                 ./images/projects/works-1-desktop@2x.webp 2x
                                                 " type="image/webp">
 
                                     <source media="(min-width: 768px)" srcset="
                                                    ./images/projects/works-1-tablet.jpg 1x,
-                                                   ./images/projects/works-1-tablet@2x.jpg 2x" srcset="
+                                                   ./images/projects/works-1-tablet@2x.jpg 2x"/>
+                                    <source media="(min-width: 768px)" srcset="
                                                    ./images/projects/works-1-tablet.webp 1x,
                                                    ./images/projects/works-1-tablet@2x.webp 2x
                                                    " type="image/webp">
 
-                                    <img srcset="
+                                    <source media="(max-width: 767px)" srcset="
                                                 ./images/projects/works-1.jpg 1x,
-                                                ./images/projects/works-1@2x.jpg 2x"srcset="
+                                                ./images/projects/works-1@2x.jpg 2x"/>
+                                    <source media="(max-width: 767px)" srcset="
                                                 ./images/projects/works-1.webp 1x,
                                                 ./images/projects/works-1@2x.webp 2x
-                                                " type="image/webp"  src="#" alt="Технокряк">
+                                                " type="image/webp"/> 
+                                                <img   src="#" alt="Технокряк">
                                  </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -146,26 +150,31 @@
                     <li class="projects__item">
                         <a href="" class="projects__link">
                             <div class="projects__box">
+                                <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-2-desktop.jpg 1x,
-                                                                                ./images/projects/works-2-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-2-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-2-desktop.webp 1x,
                                                                                 ./images/projects/works-2-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
+                                                                                " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-2-tablet.jpg 1x,
-                                                                                   ./images/projects/works-2-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-2-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-2-tablet.webp 1x,
                                                                                    ./images/projects/works-2-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
+                                                                                   " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-2.jpg 1x,
-                                                                                ./images/projects/works-2@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-2@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-2.webp 1x,
                                                                                 ./images/projects/works-2@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Постер New Orlean vs Golden Star">
+                                                                                " type="image/webp" />
+                                                                                 <img src="#" alt="Постер New Orlean vs Golden Star">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -185,26 +194,30 @@
                     <li class="projects__item">
                         <a href="" class="projects__link">
                             <div class="projects__box">
+                                <picture>
                             <source media="(min-width: 1200px)" srcset="
                                                                             ./images/projects/works-3-desktop.jpg 1x,
-                                                                            ./images/projects/works-3-desktop@2x.jpg 2x" srcset="
+                                                                            ./images/projects/works-3-desktop@2x.jpg 2x" />
+                            <source media="(min-width: 1200px)" srcset="
                                                                             ./images/projects/works-3-desktop.webp 1x,
                                                                             ./images/projects/works-3-desktop@2x.webp 2x
-                                                                            " type="image/webp"/>
+                                                                            " type="image/webp">
                             
                             <source media="(min-width: 768px)" srcset="
                                                                                ./images/projects/works-3-tablet.jpg 1x,
-                                                                               ./images/projects/works-3-tablet@2x.jpg 2x" srcset="
+                                                                               ./images/projects/works-3-tablet@2x.jpg 2x" />
+                            <source media="(min-width: 768px)" srcset="
                                                                                ./images/projects/works-3-tablet.webp 1x,
                                                                                ./images/projects/works-3-tablet@2x.webp 2x
-                                                                               " type="image/webp"/>
+                                                                               " type="image/webp">
                             
-                            <img srcset="
+                            <source media="(max-width: 767px)" srcset="
                                                                             ./images/projects/works-3.jpg 1x,
-                                                                            ./images/projects/works-3@2x.jpg 2x" srcset="
+                                                                            ./images/projects/works-1@2x.jpg 2x" />
+                            <source media="(max-width: 767px)" srcset="
                                                                             ./images/projects/works-3.webp 1x,
                                                                             ./images/projects/works-3@2x.webp 2x
-                                                                            " type="image/webp" src="#" alt="Ресторан Seafood">
+                                                                            " type="image/webp" /> <img src="#" alt="Ресторан Seafood">
                                                                             </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -225,26 +238,30 @@
                         <a href="" class="projects__link">
                             <div class="projects__box">
                                 <picture>
-                                <source media="(min-width: 1200px)" srcset="
-                                                                                ./images/projects/works-4-desktop.jpg 1x,
-                                                                                ./images/projects/works-4-desktop@2x.jpg 2x" srcset="
-                                                                                ./images/projects/works-4-desktop.webp 1x,
-                                                                                ./images/projects/works-4-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
-                                
-                                <source media="(min-width: 768px)" srcset="
-                                                                                   ./images/projects/works-4-tablet.jpg 1x,
-                                                                                   ./images/projects/works-4-tablet@2x.jpg 2x" srcset="
-                                                                                   ./images/projects/works-4-tablet.webp 1x,
-                                                                                   ./images/projects/works-4-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
-                                
-                                <img srcset="
-                                                                                ./images/projects/works-4.jpg 1x,
-                                                                                ./images/projects/works-4@2x.jpg 2x" srcset="
-                                                                                ./images/projects/works-4.webp 1x,
-                                                                                ./images/projects/works-4@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Проект Prime">
+                            <source media="(min-width: 1200px)" srcset="
+                                                                            ./images/projects/works-4-desktop.jpg 1x,
+                                                                            ./images/projects/works-4-desktop@2x.jpg 2x" />
+                            <source media="(min-width: 1200px)" srcset="
+                                                                            ./images/projects/works-4-desktop.webp 1x,
+                                                                            ./images/projects/works-4-desktop@2x.webp 2x
+                                                                            " type="image/webp">
+                            
+                            <source media="(min-width: 768px)" srcset="
+                                                                               ./images/projects/works-4-tablet.jpg 1x,
+                                                                               ./images/projects/works-4-tablet@2x.jpg 2x" />
+                            <source media="(min-width: 768px)" srcset="
+                                                                               ./images/projects/works-4-tablet.webp 1x,
+                                                                               ./images/projects/works-4-tablet@2x.webp 2x
+                                                                               " type="image/webp">
+                            
+                            <source media="(max-width: 767px)" srcset="
+                                                                            ./images/projects/works-4.jpg 1x,
+                                                                            ./images/projects/works-4@2x.jpg 2x" />
+                            <source media="(max-width: 767px)" srcset="
+                                                                            ./images/projects/works-4.webp 1x,
+                                                                            ./images/projects/works-4@2x.webp 2x
+                                                                            " type="image/webp" />
+                                                                                <img src="#" alt="Проект Prime">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -267,24 +284,28 @@
                                 <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-5-desktop.jpg 1x,
-                                                                                ./images/projects/works-5-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-5-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-5-desktop.webp 1x,
                                                                                 ./images/projects/works-5-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
+                                                                                " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-5-tablet.jpg 1x,
-                                                                                   ./images/projects/works-5-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-5-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-5-tablet.webp 1x,
                                                                                    ./images/projects/works-5-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
+                                                                                   " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-5.jpg 1x,
-                                                                                ./images/projects/works-5@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-5@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-5.webp 1x,
                                                                                 ./images/projects/works-5@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Проект Boxes">
+                                                                                " type="image/webp" /> 
+                                                                                <img src="#" alt="Проект Boxes">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -294,7 +315,7 @@
                                         конкурентов.
                                     </p>
                                 </div>
-                            </div5
+                            </div>
                             <div class="projects__thumb">
                                 <h2 class="projects__title">Проект Boxes</h2>
                                 <p class="projects__text">Приложение</p>
@@ -307,24 +328,28 @@
                                 <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-6-desktop.jpg 1x,
-                                                                                ./images/projects/works-6-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-6-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-6-desktop.webp 1x,
                                                                                 ./images/projects/works-6-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
+                                                                                " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-6-tablet.jpg 1x,
-                                                                                   ./images/projects/works-6-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-6-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-6-tablet.webp 1x,
                                                                                    ./images/projects/works-6-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
+                                                                                   " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-6.jpg 1x,
-                                                                                ./images/projects/works-6@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-6@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-6.webp 1x,
                                                                                 ./images/projects/works-6@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Inspiration has no Borders">
+                                                                                " type="image/webp" />
+                                                                                <img src="#" alt="Inspiration has no Borders">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -347,24 +372,28 @@
                                 <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-7-desktop.jpg 1x,
-                                                                                ./images/projects/works-7-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-7-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-7-desktop.webp 1x,
                                                                                 ./images/projects/works-7-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
+                                                                                " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-7-tablet.jpg 1x,
-                                                                                   ./images/projects/works-7-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-7-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-7-tablet.webp 1x,
-                                                                                   ./images/projects/works-7-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
+                                                                                   ./images/projects/works-1-tablet@2x.webp 2x
+                                                                                   " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-7.jpg 1x,
-                                                                                ./images/projects/works-7@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-7@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-7.webp 1x,
                                                                                 ./images/projects/works-7@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Издание Limited Edition">
+                                                                                " type="image/webp" />
+                                                                                 <img src="#" alt="Издание Limited Edition">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -387,24 +416,28 @@
                                 <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-8-desktop.jpg 1x,
-                                                                                ./images/projects/works-8-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-8-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-8-desktop.webp 1x,
                                                                                 ./images/projects/works-8-desktop@2x.webp 2x
-                                                                                " type="image/webp"/>
+                                                                                " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-8-tablet.jpg 1x,
-                                                                                   ./images/projects/works-8-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-8-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-8-tablet.webp 1x,
                                                                                    ./images/projects/works-8-tablet@2x.webp 2x
-                                                                                   " type="image/webp"/>
+                                                                                   " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-8.jpg 1x,
-                                                                                ./images/projects/works-8@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-8@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-8.webp 1x,
                                                                                 ./images/projects/works-8@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt=">Проект LAB">
+                                                                                " type="image/webp" />
+                                                                                <img src="#" alt=">Проект LAB">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">
@@ -427,24 +460,28 @@
                         <picture>
                                 <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-9-desktop.jpg 1x,
-                                                                                ./images/projects/works-9-desktop@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-9-desktop@2x.jpg 2x" />
+                                <source media="(min-width: 1200px)" srcset="
                                                                                 ./images/projects/works-9-desktop.webp 1x,
                                                                                 ./images/projects/works-9-desktop@2x.webp 2x
                                                                                 " type="image/webp">
                                 
                                 <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-9-tablet.jpg 1x,
-                                                                                   ./images/projects/works-9-tablet@2x.jpg 2x" srcset="
+                                                                                   ./images/projects/works-9-tablet@2x.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="
                                                                                    ./images/projects/works-9-tablet.webp 1x,
                                                                                    ./images/projects/works-9-tablet@2x.webp 2x
                                                                                    " type="image/webp">
                                 
-                                <img srcset="
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-9.jpg 1x,
-                                                                                ./images/projects/works-9@2x.jpg 2x" srcset="
+                                                                                ./images/projects/works-9@2x.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="
                                                                                 ./images/projects/works-9.webp 1x,
                                                                                 ./images/projects/works-9@2x.webp 2x
-                                                                                " type="image/webp" src="#" alt="Growing Business">
+                                                                                " type="image/webp" />
+                                                                                 <img src="#" alt="Growing Business">
                                                                                 </picture>
                                 <div class="projects__overlay">
                                     <p class="projects__overlay-text">

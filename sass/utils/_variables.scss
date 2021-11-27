@@ -67,8 +67,13 @@ a {
   }
 }
 .section {
-  padding: 94px 0;
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
 }
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
