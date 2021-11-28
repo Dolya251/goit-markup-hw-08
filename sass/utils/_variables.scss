@@ -89,7 +89,11 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 button {
@@ -118,7 +122,6 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0, 0, 0);
   padding: 10px 32px;
   transition: background-color 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
