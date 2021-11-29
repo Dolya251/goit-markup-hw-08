@@ -1267,10 +1267,8 @@ footer {
   }
 }
 
-.projects__item {
-  /*&:not(:last-child) {
-    margin-bottom: 30px;
-  }*/
+.projects__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
